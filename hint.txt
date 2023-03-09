@@ -1,0 +1,36 @@
+Goto go.org to download and install
+Create a folder and main.go file inside the folder using VScode 
+    E.G.
+        package main
+        import "fmt"
+        func main() {
+            fmt.Println("Hello, world!")
+        }
+    Run the app using    
+        - go run main.go
+
+https://go.dev/ref/spec#Numeric_types
+https://pkg.go.dev/builtin
+
+==================================
+=        GO BANK PROJECT         =
+==================================
+- Create a directory gobank
+- create a file Makefile
+- create a main.go file
+    import "fmt"
+
+    func main() {
+        fmt.Println("Yeah, good way to start Go Bank!")
+    }
+
+    - On terminal, run this code snippet 
+        - make run  => if it show go.mod file not found, do the following
+            - go mod init github.com/atayodele/gobank
+            After, run below code again
+        - make run
+- Create an api.go file
+- Install MUX --> A powerful HTTP router and URL matcher for building Go web servers
+    - go get github.com/gorilla/mux
+
+
